@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D671B8F52B5F9F47002CE669 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D671B8F42B5F9F47002CE669 /* RealityKitContent */; };
+		D671B8F72B5F9F47002CE669 /* AHEPAHellasVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B8F62B5F9F47002CE669 /* AHEPAHellasVisionApp.swift */; };
+		D671B8F92B5F9F47002CE669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B8F82B5F9F47002CE669 /* ContentView.swift */; };
+		D671B8FB2B5F9F48002CE669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D671B8FA2B5F9F48002CE669 /* Assets.xcassets */; };
+		D671B8FE2B5F9F48002CE669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D671B8FD2B5F9F48002CE669 /* Preview Assets.xcassets */; };
+		D671B9092B5F9F48002CE669 /* AHEPAHellasVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9082B5F9F48002CE669 /* AHEPAHellasVisionTests.swift */; };
+		D671B9142B5FA069002CE669 /* patmos.gif in Resources */ = {isa = PBXBuildFile; fileRef = D671B9132B5FA069002CE669 /* patmos.gif */; };
+		D671B9172B5FA167002CE669 /* SwiftUIGIF in Frameworks */ = {isa = PBXBuildFile; productRef = D671B9162B5FA167002CE669 /* SwiftUIGIF */; };
+		D671B91A2B5FA93D002CE669 /* RSSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9192B5FA93D002CE669 /* RSSModel.swift */; };
+		D671B91C2B5FA977002CE669 /* ChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B91B2B5FA977002CE669 /* ChaptersView.swift */; };
+		D671B91E2B5FB05D002CE669 /* AHEPAHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B91D2B5FB05D002CE669 /* AHEPAHistory.swift */; };
+		D671B9202B5FBC1C002CE669 /* history.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D671B91F2B5FBC1C002CE669 /* history.mp4 */; };
+		D671B9242B5FDDDD002CE669 /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9232B5FDDDD002CE669 /* SocialMedia.swift */; };
+		D671B9262B5FF0FA002CE669 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9252B5FF0FA002CE669 /* HomeView.swift */; };
+		D671B9292B5FF1C8002CE669 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D671B9282B5FF1C8002CE669 /* Alamofire */; };
+		D671B92C2B5FF1D6002CE669 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = D671B92B2B5FF1D6002CE669 /* SWXMLHash */; };
+		D671B9362B6005AF002CE669 /* AHEPAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9352B6005AF002CE669 /* AHEPAViewModel.swift */; };
+		D671B9382B60073E002CE669 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671B9372B60073E002CE669 /* VideoList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D671B9052B5F9F48002CE669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D671B8E72B5F9F46002CE669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D671B8EE2B5F9F46002CE669;
+			remoteInfo = AHEPAHellasVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D671B8EF2B5F9F46002CE669 /* AHEPAHellasVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHEPAHellasVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D671B8F32B5F9F47002CE669 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D671B8F62B5F9F47002CE669 /* AHEPAHellasVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAHellasVisionApp.swift; sourceTree = "<group>"; };
+		D671B8F82B5F9F47002CE669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D671B8FA2B5F9F48002CE669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D671B8FD2B5F9F48002CE669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D671B8FF2B5F9F48002CE669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D671B9042B5F9F48002CE669 /* AHEPAHellasVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHEPAHellasVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D671B9082B5F9F48002CE669 /* AHEPAHellasVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAHellasVisionTests.swift; sourceTree = "<group>"; };
+		D671B9132B5FA069002CE669 /* patmos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = patmos.gif; sourceTree = "<group>"; };
+		D671B9192B5FA93D002CE669 /* RSSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSModel.swift; sourceTree = "<group>"; };
+		D671B91B2B5FA977002CE669 /* ChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersView.swift; sourceTree = "<group>"; };
+		D671B91D2B5FB05D002CE669 /* AHEPAHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAHistory.swift; sourceTree = "<group>"; };
+		D671B91F2B5FBC1C002CE669 /* history.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = history.mp4; sourceTree = "<group>"; };
+		D671B9232B5FDDDD002CE669 /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		D671B9252B5FF0FA002CE669 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D671B9352B6005AF002CE669 /* AHEPAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAViewModel.swift; sourceTree = "<group>"; };
+		D671B9372B60073E002CE669 /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D671B8EC2B5F9F46002CE669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671B92C2B5FF1D6002CE669 /* SWXMLHash in Frameworks */,
+				D671B9292B5FF1C8002CE669 /* Alamofire in Frameworks */,
+				D671B8F52B5F9F47002CE669 /* RealityKitContent in Frameworks */,
+				D671B9172B5FA167002CE669 /* SwiftUIGIF in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D671B9012B5F9F48002CE669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D671B8E62B5F9F46002CE669 = {
+			isa = PBXGroup;
+			children = (
+				D671B8F12B5F9F46002CE669 /* AHEPAHellasVision */,
+				D671B8F22B5F9F47002CE669 /* Packages */,
+				D671B9072B5F9F48002CE669 /* AHEPAHellasVisionTests */,
+				D671B8F02B5F9F46002CE669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D671B8F02B5F9F46002CE669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D671B8EF2B5F9F46002CE669 /* AHEPAHellasVision.app */,
+				D671B9042B5F9F48002CE669 /* AHEPAHellasVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D671B8F12B5F9F46002CE669 /* AHEPAHellasVision */ = {
+			isa = PBXGroup;
+			children = (
+				D671B9342B60057D002CE669 /* ViewModel */,
+				D671B91F2B5FBC1C002CE669 /* history.mp4 */,
+				D671B9182B5FA92F002CE669 /* Model */,
+				D671B9132B5FA069002CE669 /* patmos.gif */,
+				D671B8F62B5F9F47002CE669 /* AHEPAHellasVisionApp.swift */,
+				D671B8F82B5F9F47002CE669 /* ContentView.swift */,
+				D671B8FA2B5F9F48002CE669 /* Assets.xcassets */,
+				D671B8FF2B5F9F48002CE669 /* Info.plist */,
+				D671B8FC2B5F9F48002CE669 /* Preview Content */,
+				D671B91B2B5FA977002CE669 /* ChaptersView.swift */,
+				D671B91D2B5FB05D002CE669 /* AHEPAHistory.swift */,
+				D671B9232B5FDDDD002CE669 /* SocialMedia.swift */,
+				D671B9252B5FF0FA002CE669 /* HomeView.swift */,
+				D671B9372B60073E002CE669 /* VideoList.swift */,
+			);
+			path = AHEPAHellasVision;
+			sourceTree = "<group>";
+		};
+		D671B8F22B5F9F47002CE669 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D671B8F32B5F9F47002CE669 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D671B8FC2B5F9F48002CE669 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D671B8FD2B5F9F48002CE669 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D671B9072B5F9F48002CE669 /* AHEPAHellasVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D671B9082B5F9F48002CE669 /* AHEPAHellasVisionTests.swift */,
+			);
+			path = AHEPAHellasVisionTests;
+			sourceTree = "<group>";
+		};
+		D671B9182B5FA92F002CE669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D671B9192B5FA93D002CE669 /* RSSModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D671B9342B60057D002CE669 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D671B9352B6005AF002CE669 /* AHEPAViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D671B8EE2B5F9F46002CE669 /* AHEPAHellasVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D671B90C2B5F9F48002CE669 /* Build configuration list for PBXNativeTarget "AHEPAHellasVision" */;
+			buildPhases = (
+				D671B8EB2B5F9F46002CE669 /* Sources */,
+				D671B8EC2B5F9F46002CE669 /* Frameworks */,
+				D671B8ED2B5F9F46002CE669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHEPAHellasVision;
+			packageProductDependencies = (
+				D671B8F42B5F9F47002CE669 /* RealityKitContent */,
+				D671B9162B5FA167002CE669 /* SwiftUIGIF */,
+				D671B9282B5FF1C8002CE669 /* Alamofire */,
+				D671B92B2B5FF1D6002CE669 /* SWXMLHash */,
+			);
+			productName = AHEPAHellasVision;
+			productReference = D671B8EF2B5F9F46002CE669 /* AHEPAHellasVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D671B9032B5F9F48002CE669 /* AHEPAHellasVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D671B90F2B5F9F48002CE669 /* Build configuration list for PBXNativeTarget "AHEPAHellasVisionTests" */;
+			buildPhases = (
+				D671B9002B5F9F48002CE669 /* Sources */,
+				D671B9012B5F9F48002CE669 /* Frameworks */,
+				D671B9022B5F9F48002CE669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D671B9062B5F9F48002CE669 /* PBXTargetDependency */,
+			);
+			name = AHEPAHellasVisionTests;
+			productName = AHEPAHellasVisionTests;
+			productReference = D671B9042B5F9F48002CE669 /* AHEPAHellasVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D671B8E72B5F9F46002CE669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D671B8EE2B5F9F46002CE669 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D671B9032B5F9F48002CE669 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D671B8EE2B5F9F46002CE669;
+					};
+				};
+			};
+			buildConfigurationList = D671B8EA2B5F9F46002CE669 /* Build configuration list for PBXProject "AHEPAHellasVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D671B8E62B5F9F46002CE669;
+			packageReferences = (
+				D671B9152B5FA167002CE669 /* XCRemoteSwiftPackageReference "swiftui-gif" */,
+				D671B9272B5FF1C7002CE669 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D671B92A2B5FF1D6002CE669 /* XCRemoteSwiftPackageReference "SWXMLHash" */,
+			);
+			productRefGroup = D671B8F02B5F9F46002CE669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D671B8EE2B5F9F46002CE669 /* AHEPAHellasVision */,
+				D671B9032B5F9F48002CE669 /* AHEPAHellasVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D671B8ED2B5F9F46002CE669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671B9202B5FBC1C002CE669 /* history.mp4 in Resources */,
+				D671B9142B5FA069002CE669 /* patmos.gif in Resources */,
+				D671B8FE2B5F9F48002CE669 /* Preview Assets.xcassets in Resources */,
+				D671B8FB2B5F9F48002CE669 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D671B9022B5F9F48002CE669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D671B8EB2B5F9F46002CE669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671B9382B60073E002CE669 /* VideoList.swift in Sources */,
+				D671B91A2B5FA93D002CE669 /* RSSModel.swift in Sources */,
+				D671B9262B5FF0FA002CE669 /* HomeView.swift in Sources */,
+				D671B9362B6005AF002CE669 /* AHEPAViewModel.swift in Sources */,
+				D671B8F92B5F9F47002CE669 /* ContentView.swift in Sources */,
+				D671B91E2B5FB05D002CE669 /* AHEPAHistory.swift in Sources */,
+				D671B9242B5FDDDD002CE669 /* SocialMedia.swift in Sources */,
+				D671B91C2B5FA977002CE669 /* ChaptersView.swift in Sources */,
+				D671B8F72B5F9F47002CE669 /* AHEPAHellasVisionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D671B9002B5F9F48002CE669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671B9092B5F9F48002CE669 /* AHEPAHellasVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D671B9062B5F9F48002CE669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D671B8EE2B5F9F46002CE669 /* AHEPAHellasVision */;
+			targetProxy = D671B9052B5F9F48002CE669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D671B90A2B5F9F48002CE669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D671B90B2B5F9F48002CE669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		D671B90D2B5F9F48002CE669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AHEPAHellasVision/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.AHEPAHellasVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D671B90E2B5F9F48002CE669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AHEPAHellasVision/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.AHEPAHellasVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		D671B9102B5F9F48002CE669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.AHEPAHellasVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHEPAHellasVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AHEPAHellasVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D671B9112B5F9F48002CE669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.AHEPAHellasVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHEPAHellasVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AHEPAHellasVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D671B8EA2B5F9F46002CE669 /* Build configuration list for PBXProject "AHEPAHellasVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D671B90A2B5F9F48002CE669 /* Debug */,
+				D671B90B2B5F9F48002CE669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D671B90C2B5F9F48002CE669 /* Build configuration list for PBXNativeTarget "AHEPAHellasVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D671B90D2B5F9F48002CE669 /* Debug */,
+				D671B90E2B5F9F48002CE669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D671B90F2B5F9F48002CE669 /* Build configuration list for PBXNativeTarget "AHEPAHellasVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D671B9102B5F9F48002CE669 /* Debug */,
+				D671B9112B5F9F48002CE669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D671B9152B5FA167002CE669 /* XCRemoteSwiftPackageReference "swiftui-gif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-gif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		D671B9272B5FF1C7002CE669 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		D671B92A2B5FF1D6002CE669 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drmohundro/SWXMLHash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D671B8F42B5F9F47002CE669 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		D671B9162B5FA167002CE669 /* SwiftUIGIF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D671B9152B5FA167002CE669 /* XCRemoteSwiftPackageReference "swiftui-gif" */;
+			productName = SwiftUIGIF;
+		};
+		D671B9282B5FF1C8002CE669 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D671B9272B5FF1C7002CE669 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D671B92B2B5FF1D6002CE669 /* SWXMLHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D671B92A2B5FF1D6002CE669 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
+			productName = SWXMLHash;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D671B8E72B5F9F46002CE669 /* Project object */;
+}
